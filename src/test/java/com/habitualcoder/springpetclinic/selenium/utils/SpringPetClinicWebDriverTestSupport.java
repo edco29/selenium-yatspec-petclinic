@@ -24,7 +24,7 @@ public class SpringPetClinicWebDriverTestSupport extends TestState implements Wi
     private static final Logger logger = LoggerFactory.getLogger(SpringPetClinicWebDriverTestSupport.class);
     private static final String LOCAL_APP_PORT="9090";
     private static final String LOCAL_APP_CONTEXT = "petclinic";
-    private static final String LOCAL_APP_STARTING_URL = String.format("http://localhost:%s/%s/", LOCAL_APP_PORT, LOCAL_APP_CONTEXT);
+    private static final String LOCAL_APP_STARTING_URL = String.format("http://13.92.159.139::%s/%s/", LOCAL_APP_PORT, LOCAL_APP_CONTEXT);
 
     // useful flags to help with debugging - enabling you to actually see the pages as they are automated
     // false means using the htmlunit driver (invisible but quicker and more stable)
