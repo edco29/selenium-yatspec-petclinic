@@ -22,7 +22,7 @@ import java.util.Arrays;
 public class SpringPetClinicWebDriverTestSupport extends TestState implements WithCustomResultListeners, WithTestState {
     protected static WebDriverBackedSelenium selenium;
     private static final Logger logger = LoggerFactory.getLogger(SpringPetClinicWebDriverTestSupport.class);
-    private static final String LOCAL_APP_PORT="9966";
+    private static final String LOCAL_APP_PORT="9090";
     private static final String LOCAL_APP_CONTEXT = "petclinic";
     private static final String LOCAL_APP_STARTING_URL = String.format("http://localhost:%s/%s/", LOCAL_APP_PORT, LOCAL_APP_CONTEXT);
 
