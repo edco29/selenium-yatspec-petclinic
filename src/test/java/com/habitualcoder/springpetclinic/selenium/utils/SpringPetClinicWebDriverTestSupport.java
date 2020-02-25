@@ -40,7 +40,7 @@ public class SpringPetClinicWebDriverTestSupport extends TestState implements Wi
     public void setupSelenium() throws InterruptedException {
         WebDriver driver = null;
         if (USE_FIREFOX) {
-            driver = new FirefoxDriver();
+            driver = new ChromeDriver();
         } else {
             driver = new HtmlUnitDriver(true);
         }
